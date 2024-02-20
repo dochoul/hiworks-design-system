@@ -12,7 +12,7 @@ import Banner from "./pages/Banner";
 import Modal from "./pages/Modal";
 import Input from "./pages/Input";
 import Progress from "./pages/Progress";
-import DatePicker from "./pages/datePicker";
+//import DatePicker from "./pages/datePicker";
 import Dropdown from "./pages/Dropdown";
 import List from "./pages/List";
 import Loading from "./pages/Loading";
@@ -44,7 +44,7 @@ function App() {
               <Route path="/templates" element={<Templates />} />
               <Route path="/buttons" element={<Buttons />} />
               <Route path="/progress" element={<Progress />} />
-              <Route path="/datePicker" element={<DatePicker />} />
+              {/* <Route path="/datePicker" element={<DatePicker />} /> */}
               <Route path="/dropdown" element={<Dropdown />} />
               <Route path="/list" element={<List />} />
               <Route path="/loading" element={<Loading />} />
